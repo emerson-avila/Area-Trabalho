@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*  {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color:  rgb(8, 8, 49);
+    background-image: linear-gradient(to bottom right, rgb(85, 85, 160), rgb(34, 34, 181));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+
+    background-image: linear-gradient(to bottom right, rgb(34, 34, 131), rgb(85, 85, 160));
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: rgb(190, 190, 255);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(68, 68, 189, 0.897);
+}
+
+.card-menu {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+}
+
+span.material-symbols-outlined:hover {
+    background-color: rgba(190, 190, 255, 0.699);
+    color: rgb(22, 22, 141);
+    cursor: pointer ;
+    border-radius: 20% 2px;
+    transition: 0.3s;
+    
+}
+
+
+
+.card-img {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    border-radius: 50%;
+    width: 30%;
+    border: 2px solid rgb(60, 60, 124);
+}
+
+.card-conteudo {
+    margin: 10px;
+}
+h2  {
+    font-size: 18px;
+    color: rgb(201, 201, 224);
+    margin: 10px;
+}
+span {
+    font-size: 12px;
+}
+p {
+    font-size: 14px;
+    color: rgb(201, 201, 224);
+    margin-top: 10px;
+}
+
+.card-button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px 70px;
+    column-gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    width: 40%;
+    padding: 5px;
+    background-color: rgb(201, 201, 224);
+    color: rgba(32, 32, 131, 0.801);
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+button:hover {
+    padding: 5px;
+    background-color: rgba(32, 32, 131, 0.363);
+    color: rgb(201, 201, 224);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 40%;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.521);
+    transition: 0.1s;
+    cursor: pointer;
+}
+img.facebook:hover {
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: 2px;
+    box-shadow: 2px 2px 15px rgb(5, 5, 173);
+}
+img.instagram:hover {
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: 2px;
+    box-shadow: 2px 2px 15px rgba(160, 38, 75, 0.938);
+}
+img.twitter:hover {
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: 2px;
+    box-shadow: 2px 2px 15px rgba(3, 3, 3, 0.938);
+}
+
+
+p.rede-social {
+    font-size: 10px;
+    color: rgb(190, 190, 255);
+}
